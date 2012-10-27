@@ -18,8 +18,8 @@
  * @author Andres Almiray
  */
 class QtGriffonArchetype {
-    String version = '1.0'
-    String griffonVersion = '0.9.6 > *'
+    String version = '1.0.0'
+    String griffonVersion = '1.1.0 > *'
     String license = 'Apache Software License 2.0'
     String documentation = ''
     String source = 'https://github.com/griffon/griffon-qt-archetype'
@@ -31,14 +31,14 @@ class QtGriffonArchetype {
     ]
     String title = 'Default archetype for Qt applications'
     String description = '''
-Brief description of Qt.
+Creates an application with Qt as the defualt UI toolkit.
 
 Usage
 ----
 Simply specify the name of the archetype (*qt*) when invoking the `create-app`
 command, like this
 
-    griffon create-app sample -archetype=qt
+    griffon create-app sample --archetype=qt
 
 Configuration
 -------------
